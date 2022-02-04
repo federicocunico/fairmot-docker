@@ -1,2 +1,0 @@
-# fairmot-docker
- 
