@@ -1,1 +1,10 @@
 *.pth
+
+data/
+!data/.keep
+!data/*.png
+!data/*.npy
+
+**DCNv2/
+*.pyc
+__pycache__/

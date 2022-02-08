@@ -55,6 +55,7 @@ COPY ./FairMOT/models/all_dla34.pth /fairmot/models/all_dla34.pth
 COPY ./FairMOT/videos/delete.m4v /fairmot/videos/delete.m4v
 
 COPY ./FairMOT/detect.py /fairmot/detect.py
+COPY ./FairMOT/demo_2d.py /fairmot/demo_2d.py
 COPY ./start.sh /fairmot/start.sh
 RUN chmod +x start.sh
 
